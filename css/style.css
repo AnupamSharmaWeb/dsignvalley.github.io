@@ -1249,8 +1249,7 @@ h1, h2, h3, h4, h5,
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
- @media (max-width: 768px) {
-    
+ @media (max-width: 768px) {  
       .custom-owl-carousel .col-lg-4 {margin-top: -20px; margin-bottom: 40px;}
 .section-title { margin-top: 20px;}
      .section-1 { margin-top:4rem; }     
@@ -1258,6 +1257,10 @@ h1, h2, h3, h4, h5,
      .nonloop-block-13 .owl-stage {padding-bottom: 0px;}   
  .owl-carousel .owl-stage-outer {margin-top: -40px;} 
      .m1{margin-top: 30px;}
+     .service {height: auto;}
+.bg-white { height: auto;}
      
      
 }
+@media (max-width: 500px) {
+     .m2{margin-top: -80px;}    
