@@ -1,10 +1,4 @@
-/*------------------------------------------------------------
-|  Author: Free-Template.co                                   
-|  Author URL: https://free-template.co/                      
-|  License: https://creativecommons.org/licenses/by/3.0/      
-|  License URL: https://creativecommons.org/licenses/by/3.0/  
--------------------------------------------------------------*/
-/* Base */
+
 body {
   line-height: 1.7;
   color: gray;
@@ -34,9 +28,6 @@ h1, h2, h3, h4, h5,
 .border-2 {
   border-width: 2px; }
 
-.section-title {
-    padding-top:60px;}
-
 .text-black {
   color: #000 !important; }
 
@@ -64,7 +55,7 @@ h1, h2, h3, h4, h5,
   opacity: 0;
   visibility: hidden; }
 
-.service {height: 640px;}
+.service {height: 516px;}
 .bg-white { height: 480px;}
 
 .service:after {
@@ -152,13 +143,11 @@ h1, h2, h3, h4, h5,
 @media (max-width: 768px) { 
     .head{margin-top: 40px;}}
 
-.site-section {
-  padding: 2.5em 0; }
   @media (min-width: 768px) {      
     .site-section {
-      padding: 5em 0; } }
+      padding: 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 0; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -713,8 +702,8 @@ h1, h2, h3, h4, h5,
     padding-bottom: 10px !important; }
 
 .sticky-wrapper.is-sticky .site-navbar {
-    -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 4px 0 20px 2px rgba(0, 0, 0, 2);
+    box-shadow: 4px 0 20px 2px rgba(0, 0, 0, 2);
     background: #25368b;}
 
 /* Blocks */
@@ -742,6 +731,11 @@ h1, h2, h3, h4, h5,
     width: 70%;
     background: #25368b;
     border-bottom-right-radius: 200px; }
+
+
+
+
+
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
@@ -760,7 +754,8 @@ h1, h2, h3, h4, h5,
     border-width: 2px; }
 
 .site-section {
-  padding: 3em 0; }
+  padding: 6rem; }
+
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; 
@@ -956,9 +951,10 @@ h1, h2, h3, h4, h5,
   display: none; }
 
 .nonloop-block-14 .owl-dots {
-  margin-top: 30px;
+  margin-top: 10px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
   .nonloop-block-14 .owl-dots .owl-dot {
     display: inline-block;
     margin: 5px; }
@@ -969,7 +965,7 @@ h1, h2, h3, h4, h5,
       border-radius: 50%;
       background-color: #ccc; }
     .nonloop-block-14 .owl-dots .owl-dot.active span {
-      background-color: #352961; }
+      background-color:#25368b; }
 
 .footer-section {
   padding: 4em 0 0 0; }
@@ -1014,7 +1010,7 @@ h1, h2, h3, h4, h5,
   border: 1px solid #d9d9d9; }
 
 .service {
-  padding: 4rem;
+  padding: 2rem;
   background: #fff;
   position: relative;
   border-radius: 4px;
@@ -1127,7 +1123,7 @@ h1, h2, h3, h4, h5,
       box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4); }
 
 .testimonial-wrap blockquote p {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: #000; }
   .testimonial-wrap blockquote p.author {
     font-size: 1.2rem;
@@ -1252,3 +1248,16 @@ h1, h2, h3, h4, h5,
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+ @media (max-width: 768px) {
+    
+      .custom-owl-carousel .col-lg-4 {margin-top: -20px; margin-bottom: 40px;}
+.section-title { margin-top: 20px;}
+     .section-1 { margin-top:4rem; }     
+     .site-section {padding: 20px;}     
+     .nonloop-block-13 .owl-stage {padding-bottom: 0px;}   
+ .owl-carousel .owl-stage-outer {margin-top: -40px;} 
+     .m1{margin-top: 30px;}
+     
+     
+}
